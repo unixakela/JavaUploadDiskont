@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="JavaUploadDiskont">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaUploadDiskont</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.UploadClientDiscont" />
+        <option name="convertCss2Bin" value="true" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaUploadDiskont.jar">
+        <element id="module-output" name="JavaUploadDiskont" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

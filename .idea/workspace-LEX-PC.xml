@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaUploadDiskont" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74cef74e-fbbe-4fc3-8eea-c206f6c00c0f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1fZQHV3rr2x9BUUqY6zftUrhZO1" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample/libs/xmlbeans-3.1.0.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JAR Application.JavaUploadDiskont.jar">
+    <configuration name="UploadClientDiscont" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.UploadClientDiscont" />
+      <module name="JavaUploadDiskont" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaUploadDiskont.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JavaUploadDiskont/JavaUploadDiskont.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.JavaUploadDiskont.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74cef74e-fbbe-4fc3-8eea-c206f6c00c0f" name="Default Changelist" comment="" />
+      <created>1596423046992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596423046992</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596423997233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596423997233" />
+    <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596425237813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596425237813" />
+    <state x="1230" y="192" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1596424853432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1230" y="192" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596424853432" />
+    <state x="1180" y="236" key="FileChooserDialogImpl" timestamp="1596425151748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1180" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596425151748" />
+    <state width="938" height="271" key="GridCell.Tab.0.bottom" timestamp="1596501445995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596501445995" />
+    <state width="938" height="271" key="GridCell.Tab.0.center" timestamp="1596501445995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596501445995" />
+    <state width="938" height="271" key="GridCell.Tab.0.left" timestamp="1596501445995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596501445995" />
+    <state width="938" height="271" key="GridCell.Tab.0.right" timestamp="1596501445995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596501445995" />
+    <state x="620" y="64" key="SettingsEditor" timestamp="1596525538896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="620" y="64" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596525538896" />
+    <state x="1204" y="350" key="classpath-attribute-editor" timestamp="1596423604247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1204" y="350" key="classpath-attribute-editor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1596423604247" />
+  </component>
+</project>

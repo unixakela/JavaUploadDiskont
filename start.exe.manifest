@@ -1,0 +1,22 @@
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+<security>
+<requestedPrivileges>
+<requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+</requestedPrivileges>
+</security>
+</trustInfo>
+</assembly>
+<!--BEGIN_VBSEDIT_DATA
+PHJvb3Q+DQo8dGltZW91dD4wPC90aW1lb3V0Pg0KPHNjcmlwdG5hbWU+c3RhcnQu
+dmJzPC9zY3JpcHRuYW1lPg0KPGFwcG5hbWU+U3RhcnQ8L2FwcG5hbWU+DQo8c2Ny
+aXB0PlNldCBvYmpTaGVsbCA9IFdTY3JpcHQuQ3JlYXRlT2JqZWN0KCJXU2NyaXB0
+LlNoZWxsIikNClNldCBGU08gPSBDcmVhdGVPYmplY3QoIlNjcmlwdGluZy5GaWxl
+U3lzdGVtT2JqZWN0IikNClNldCBGID0gRlNPLkdldEZpbGUoV3NjcmlwdC5TY3Jp
+cHRGdWxsTmFtZSkNCnBhdGggPSBGU08uR2V0UGFyZW50Rm9sZGVyTmFtZShGKSsi
+XG91dFxhcnRpZmFjdHNcSmF2YVVwbG9hZERpc2tvbnRcSmF2YVVwbG9hZERpc2tv
+bnQuamFyIg0KJ01TZ0JveCBwYXRoDQpvYmpTaGVsbC5SdW4ocGF0aCksIDEsIFRy
+dWU8L3NjcmlwdD4NCjxwaWQ+VjlYWktRcjdVREpVQ1ZOczdwaFJGY3hmT0RrQ2c4
+Sk1YQWhkWE5DSmV3d1pXZ0JKUTVEOGpFOXNuczhTRGRYTzwvcGlkPg0KPC9yb290
+Pg0KAA==
+END_VBSEDIT_DATA-->

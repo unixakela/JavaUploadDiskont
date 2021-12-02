@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="763.0" prefWidth="1115.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RootWindow">
+   <children>
+
+       
+      <ComboBox fx:id="classifClientsBox" layoutX="168.0" layoutY="110.0" onAction="#selectClassifClientsBox" prefHeight="25.0" prefWidth="300.0" promptText="Группа не выбрана..." />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="7.0" prefHeight="81.0" prefWidth="962.0" text="Загрузка клиентов в УКМ 4.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="110.0" prefHeight="25.0" prefWidth="141.0" text="Группа дисконтных карт" />
+      <Label layoutX="27.0" layoutY="140.0" prefHeight="25.0" prefWidth="141.0" text="Файл загрузки:" />
+      <TextField fx:id="pathFile" layoutX="168.0" layoutY="140.0" prefHeight="25.0" prefWidth="300.0" />
+      <Button fx:id="selectBtn" layoutX="474.0" layoutY="140.0" mnemonicParsing="false" onAction="#onСlickSelectBtn" text="Выбрать" />
+      <TabPane layoutX="25.0" layoutY="173.0" prefHeight="507.0" prefWidth="1040.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Загрузка">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="1040.0">
+                     <children>
+                        <ToolBar layoutY="2.0" prefHeight="40.0" prefWidth="1040.0">
+                          <items>
+                              <Button fx:id="uploadBtn" mnemonicParsing="false" onAction="#onClickUploadBtn" prefHeight="25.0" prefWidth="107.0" text="Загрузить" />
+                            <Button fx:id="creatBtn" mnemonicParsing="false" onAction="#onClickCreatBtn" text="Создать/переместить клиентов" />
+                          </items>
+                        </ToolBar>
+                        <TableView fx:id="tableClients" layoutY="43.0" prefHeight="434.0" prefWidth="1040.0">
+                          <columns>
+                            <TableColumn fx:id="colUpload" prefWidth="55.0" text="Грузить" />
+                            <TableColumn fx:id="colClient" prefWidth="95.0" text="Клиент" />
+                              <TableColumn fx:id="colCard" prefWidth="75.0" text="Номер карты" />
+                              <TableColumn fx:id="colCardExist" prefWidth="101.0" text="н/к существует" />
+                              <TableColumn fx:id="colPhone" prefWidth="75.0" text="Номер телефона" />
+                              <TableColumn fx:id="colPhoneExist" prefWidth="75.0" text="н/т существует" />
+                              <TableColumn fx:id="colDateBirthday" prefWidth="75.0" text="Дата Рождения" />
+                              <TableColumn prefWidth="75.0" text="Текущая группа">
+                                 <columns>
+                                    <TableColumn fx:id="colOldGroupId" prefWidth="75.0" text="Код" />
+                                    <TableColumn fx:id="colOldGroupName" prefWidth="75.0" text="Наименование" />
+                                 </columns>
+                              </TableColumn>
+                              <TableColumn fx:id="colTeleport" prefWidth="136.0" text="Требуется перенос" />
+                              <TableColumn fx:id="colComment" prefWidth="198.0" text="Комментарий" />
+                  
+                                </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Логирование">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea fx:id="logError" layoutX="5.0" layoutY="3.0" prefHeight="470.0" prefWidth="1031.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <ProgressBar fx:id="progressBar" layoutX="27.0" layoutY="707.0" prefHeight="25.0" prefWidth="490.0" progress="0.0" />
+      <Label layoutX="558.0" layoutY="110.0" text="Тип карты" />
+      <ComboBox fx:id="typeCarfsBox" layoutX="623.0" layoutY="110.0" onAction="#selectTypeCarfsBox" prefHeight="25.0" prefWidth="251.0" />
+   </children>
+</AnchorPane>

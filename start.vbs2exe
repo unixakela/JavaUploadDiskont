@@ -1,0 +1,23 @@
+<convert2exe>
+    <mode>gui</mode>
+    <uacLevel>asInvoker</uacLevel>
+    <launcher>C:\Program Files\Vbsedit\launcher64w_processes.exe</launcher>
+    <userAccount></userAccount>
+    <password>072046</password>
+    <silent>no</silent>
+    <unicode>no</unicode>
+    <regfreecom>no</regfreecom>
+    <createmsi>no</createmsi>
+    <msi>
+        <targetFolder>H:\OneDrive\java\JavaUploadDiskont\start_msi</targetFolder>
+        <version>1.0.0.0</version>
+        <description>MSI package for Start</description>
+        <productName>Start</productName>
+        <manufacturer>lex</manufacturer>
+        <scope>perUser</scope>
+        <upgradeCode>{0811D15E-478B-4729-9D7B-A6C8724FD645}</upgradeCode>
+        <desktopShortcut>yes</desktopShortcut>
+        <startmenuShortcut>yes</startmenuShortcut>
+        <dependencies />
+    </msi>
+</convert2exe>
